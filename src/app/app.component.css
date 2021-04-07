@@ -1,0 +1,15 @@
+.scrolling-wrapper-flexbox {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.card {
+  flex: 0 0 auto;
+  width: 80%;
+  background-color: #222831;
+  border-radius: 0.25rem;
+  color: white;
+  margin-right: 3px;
+  text-align: center;
+}

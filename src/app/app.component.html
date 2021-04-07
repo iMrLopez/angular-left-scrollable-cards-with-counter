@@ -1,0 +1,22 @@
+<div
+  class="scrolling-wrapper-flexbox"
+  #cardsContainer
+  onscroll="countVisibleElements()"
+>
+  <div class="card" #panel>
+    <h2>Card</h2>
+  </div>
+  <div class="card" #panel>
+    <h2>Card</h2>
+  </div>
+  <div class="card" #panel>
+    <h2>Card</h2>
+  </div>
+  <div class="card" #panel>
+    <h2>Card</h2>
+  </div>
+</div>
+<p>
+  Displaying {{displayedCards[0]}} out of
+  {{displayedCards[displayedCards.length-1]}}
+</p>
